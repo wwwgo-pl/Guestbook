@@ -1,0 +1,18 @@
+<form action="" method="POST" class="gb_form">
+    <fieldset>
+        <legend>Nowy wpis w księdze gości</legend>
+        <div>
+            <label for="gb_username">Nick / Nazwa użytkownika</label>
+            <input id="gb_username" type="text" name="gb_username" required />
+        </div>
+        <div>
+            <label for="gb_email">Adres e-mail</label>
+            <input id="gb_email" type="email" name="gb_email" required />
+        </div>
+        <div>
+            <label for="gb_comment">Komentarz</label>
+            <textarea name="gb_comment" id="gb_comment" cols="30" rows="10" required></textarea>
+        </div>
+    </fieldset>
+    <input type="submit" name="gb_save" value="Zapisz komentarz" />
+</form>
